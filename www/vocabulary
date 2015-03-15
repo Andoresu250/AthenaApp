@@ -18,7 +18,7 @@
             </div>
 
             <div data-role="content">
-                <a href="Aplicaciçon de Ahorcado.html" data-role="button" data-inline="false">Game</a>
+                <a href="ahorcado.html" data-role="button" data-inline="false">Game</a>
                 <a href="#a" data-role="button" data-inline="false">Basico</a>
                 <a href="#a" data-role="button" data-inline="false">Medio</a>
                 <a href="#a" data-role="button" data-inline="false">Avanzado</a>
