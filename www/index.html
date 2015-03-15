@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Athena</title>   
-        <<meta name="viewport" content="whidth=device-width, initial-scale=1, maximum-scale=no">
+        <meta name="viewport" content="whidth=device-width, initial-scale=1, maximum-scale=no">
         <link rel="stylesheet" type="text/css" href="jqm/jquery.mobile-1.4.5.css">
         <script type="text/javascript" src="jquery-2.1.3.js"></script>
         <script type="text/javascript" src="jqm/jquery.mobile-1.4.5.js"></script>        
@@ -26,14 +26,16 @@
                 <h1>Athena</h1>
             </div>
             <div data-role="content">
-                <a href="vocabulary.html" data-role="button" data-inline="false">Vocabulario</a>
+                <a href="vocabulary" data-role="button" data-inline="false">Vocabulario</a>
                 <a href="test.html" data-role="button" data-inline="false">Prueba</a>
                 <a href="progress.html" data-role="button" data-inline="false">Avance</a>
             </div>
           
             <div data-role="footer" data-position="fixed">
                 <div><center><img src="img/athena.png" height="100" width="85" data-position="fixed"></center></div>
-                 <a href="notes" data-role="button" data-inline="false">Notes</a>
+                 <center>
+                     <a href="notes.html" data-role="button" data-inline="true">Notes</a>
+                 </div></center>
             </div>
             <nav id="menu">
                 <ul>                    
@@ -51,11 +53,6 @@
                     </li> 
                 </ul>
             </nav>
-        </div>        
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript">
-            app.initialize();
-        </script>
+        </div>
     </body>
 </html>

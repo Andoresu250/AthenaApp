@@ -10,7 +10,7 @@
     </head>
     <body>
         <!--Pagina Vocabulario-->
-        <<div data-role="page" id="vocabulario">
+        <div data-role="page" id="vocabulario">
             <div data-role="header" data-theme="b" data-position="fixed">
                 <a href="#index" data-icon="back" data-inline="false">Back</a>
                 <a href="#index" data-icon="home" data-inline="false">Home</a>
@@ -18,7 +18,7 @@
             </div>
 
             <div data-role="content">
-                <a href="#a" data-role="button" data-inline="false">Inicial</a>
+                <a href="Aplicaciçon de Ahorcado.html" data-role="button" data-inline="false">Game</a>
                 <a href="#a" data-role="button" data-inline="false">Basico</a>
                 <a href="#a" data-role="button" data-inline="false">Medio</a>
                 <a href="#a" data-role="button" data-inline="false">Avanzado</a>
