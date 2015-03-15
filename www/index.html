@@ -5,18 +5,31 @@
         <<meta name="viewport" content="whidth=device-width, initial-scale=1, maximum-scale=no">
         <link rel="stylesheet" type="text/css" href="jqm/jquery.mobile-1.4.5.css">
         <script type="text/javascript" src="jquery-2.1.3.js"></script>
-        <script type="text/javascript" src="jqm/jquery.mobile-1.4.5.js"></script>
+        <script type="text/javascript" src="jqm/jquery.mobile-1.4.5.js"></script>        
+        <link type="text/css" rel="stylesheet" href="src/css/jquery.mmenu.all.css" />
+        <link type="text/css" rel="stylesheet" href="css/demo.css" />
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script type="text/javascript" src="src/js/jquery.mmenu.min.all.js"></script>
+        <script type="text/javascript">
+            $(function() {
+                $('nav#menu').mmenu();
+            });
+        </script>
         <title>Athena</title>
     </head>
     <body>
         <!--Inicio creo xD-->
-        <<div data-role="page" id = "index">
-            <div data-role="header" data-position="fixed" >
-                <a href="#index" data-icon="back" data-inline="false">Back</a>
+        <div data-role="page" id = "index">
+            <!--<div data-role="header" data-position="fixed" >
+                <a href="#menu"></a>
                 <a href="#index" data-icon="home" data-inline="false">Home</a>
                 <h1>Athena</h1>
+            </div>-->
+            <div data-role="header" data-position="fixed">    
+                <a href="#menu" data-icon="gear" data-iconpos="notext"></a>
+                <a href="#index" data-icon="home" data-iconpos="notext"></a>                 
+                <h1>Athena</h1>
             </div>
-
             <div data-role="content">
                 <a href="vocabulary" data-role="button" data-inline="false">Vocabulario</a>
                 <a href="test" data-role="button" data-inline="false">Prueba</a>
@@ -27,6 +40,17 @@
                 <div><center><img src="img/athena.png" height="200" width="170" data-position="fixed"></center></div>
                  <a href="notes" data-role="button" data-inline="false">Notes</a>
             </div>
+            <nav id="menu">
+                <ul>                    
+                    <li>                        
+                            <a href="#a" data-role="button" data-inline="true">Yes</a>
+                            <a href="#a" data-role="button" data-inline="true">No</a>
+                        
+                    </li>
+                    <li><a href="#about">About us</a></li>               
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>        
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
