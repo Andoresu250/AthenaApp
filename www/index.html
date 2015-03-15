@@ -20,35 +20,35 @@
     <body>
         <!--Inicio creo xD-->
         <div data-role="page" id = "index">
-            <!--<div data-role="header" data-position="fixed" >
-                <a href="#menu"></a>
-                <a href="#index" data-icon="home" data-inline="false">Home</a>
-                <h1>Athena</h1>
-            </div>-->
             <div data-role="header" data-position="fixed">    
                 <a href="#menu" data-icon="gear" data-iconpos="notext"></a>
                 <a href="#index" data-icon="home" data-iconpos="notext"></a>                 
                 <h1>Athena</h1>
             </div>
             <div data-role="content">
-                <a href="vocabulary" data-role="button" data-inline="false">Vocabulario</a>
-                <a href="test" data-role="button" data-inline="false">Prueba</a>
-                <a href="progress" data-role="button" data-inline="false">Avance</a>
+                <a href="vocabulary.html" data-role="button" data-inline="false">Vocabulario</a>
+                <a href="test.html" data-role="button" data-inline="false">Prueba</a>
+                <a href="progress.html" data-role="button" data-inline="false">Avance</a>
             </div>
           
             <div data-role="footer" data-position="fixed">
-                <div><center><img src="img/athena.png" height="200" width="170" data-position="fixed"></center></div>
+                <div><center><img src="img/athena.png" height="100" width="85" data-position="fixed"></center></div>
                  <a href="notes" data-role="button" data-inline="false">Notes</a>
             </div>
             <nav id="menu">
                 <ul>                    
-                    <li>                        
-                            <a href="#a" data-role="button" data-inline="true">Yes</a>
-                            <a href="#a" data-role="button" data-inline="true">No</a>
-                        
+                    <li>     
+                        <label for="btnSoundYes">Sound:</label>                     
+                        <a href="#a" data-role="button" data-inline="true" id="btnSoundYes" name="btnSoundYes" data-theme="c">Yes</a>
+                        <a href="#a" data-role="button" data-inline="true" id="btnSoundNo" name="btnSoundNo">No</a>       
+                        <a href="#a" data-iconpos="notext"></a>   
                     </li>
-                    <li><a href="#about">About us</a></li>               
-                    <li><a href="#contact">Contact</a></li>
+
+                    <li>
+                        <label for="btnSpanishYes">Spanish:</label>                     
+                        <a href="#a" data-role="button" data-inline="true" id="btnSpanishYes" name="btnSpanishYes" data-theme="c">Yes</a>
+                        <a href="#a" data-role="button" data-inline="true" id="btnSpanishdNo" name="btnSpanishNo">No</a>    
+                    </li> 
                 </ul>
             </nav>
         </div>        
